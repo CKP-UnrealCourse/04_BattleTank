@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "Public/Tank.h"
+#include "Tank.h"
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h" // Lust be the last include
 
