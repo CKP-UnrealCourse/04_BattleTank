@@ -25,6 +25,8 @@ public:
 		void IntendTurnRight(float Throw);
 
 	virtual void RequestDirectMove(const FVector& MoveVelocity, bool bForceMaxSpeed) override;
+
+	FVector DotProduct();
 	
 private:
 	UTankTrack* LeftTrack = nullptr;
